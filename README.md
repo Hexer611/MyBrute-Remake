@@ -1,5 +1,5 @@
 # MyBrute-Remake
-This repository contains a game implementation that I used to play in primary school. Unity game engine is used.\
+This repository contains a game implementation that I used to play in primary school. Unity game engine is used.
 
 The features that are planned to be implemented.\
 :white_check_mark: Core fight mechanics\
