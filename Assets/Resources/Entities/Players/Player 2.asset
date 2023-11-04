@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f3744b7657f09428bc210a7dbb2867, type: 3}
+  m_Name: Player 2
+  m_EditorClassIdentifier: 
+  HP: 1000
+  Strength: 1
+  Speed: 0
+  Agility: 0
+  bodyColor: {r: 0.47748184, g: 0, b: 1, a: 1}
+  weapons:
+  - {fileID: 11400000, guid: 9ccab3ed99d5fc94eb07ee84e7b7675c, type: 2}
+  - {fileID: 11400000, guid: cc301eaa2989c0e4c959237f0b26b1b9, type: 2}
+  - {fileID: 11400000, guid: 4fea8cb37444af0439d7bc5cad22e37f, type: 2}
+  - {fileID: 11400000, guid: a73061365d180c24197d3d55d64c4094, type: 2}

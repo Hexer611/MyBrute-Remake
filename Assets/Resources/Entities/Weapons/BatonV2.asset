@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0cc0b421c53e04fab64599a9ba1d1e, type: 3}
+  m_Name: BatonV2
+  m_EditorClassIdentifier: 
+  weaponName: 
+  Damage: 25
+  CritChance: 0.2
+  CritDamage: 3
+  MultiHitChance: 0.1
+  WeaponDropChance: 0.75
+  attackPositionOffset: 1.5
+  weaponSprite: {fileID: 1008569697, guid: c2eea0b2d65caa046bd834b9a42a5f49, type: 3}
