@@ -3,7 +3,7 @@ This repository contains a game implementation that I used to play in primary sc
 
 The features that are planned to be implemented.\
 :white_check_mark: Core fight mechanics\
-:white_square_button: Pets\
+:white_check_mark: Pets\
 :white_check_mark: Weapons\
 :white_square_button: Abilities\
 :white_square_button: Stats (Strength, Agility, Speed)\
