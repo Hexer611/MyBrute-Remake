@@ -20,7 +20,7 @@ Planned Unity features to be used.\
 :zap: VFX graph\
 :zap: Shader graph\
 \
-Here are some screen shots from current state of this implementation.\
+Here are some screen shots from current state of this implementation.
 
 [webm1.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/c3e6d7d5-4ceb-4510-bd6b-e44aa77062c2)
 
