@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static UnityEditor.Experimental.GraphView.GraphView;
+using static UnityEditor.Progress;
 
 public class MainFightScene : MonoBehaviour
 {
@@ -33,9 +35,6 @@ public class MainFightScene : MonoBehaviour
 
         player1.direction = Vector3.right;
         player2.direction = Vector3.left;
-
-        player1.SetEnemy(player2);
-        player2.SetEnemy(player1);
 
         player1.InitializePlayer();
         player2.InitializePlayer();
@@ -71,19 +70,33 @@ public class MainFightScene : MonoBehaviour
             yield return null;
         }
 
+        List<BruteBase> bruteList = new List<BruteBase>();
+        bruteList.AddRange(BruteBase.leftBrutes);
+        bruteList.AddRange(BruteBase.rightBrutes);
+
+        bruteList.OrderBy(x => Random.Range(0, bruteList.Count));
         while (true)
         {
-            if (player1.IsAlive && player2.IsAlive)
-                yield return player1.Attack();
-            else
+            foreach (var item in bruteList)
+            {
+                if (item.IsAlive)
+                    yield return item.Attack();
+
+                if (IsGameOver())
+                    break;
+            }
+
+            if (IsGameOver())
                 break;
 
-            if (player1.IsAlive && player2.IsAlive)
-                yield return player2.Attack();
-            else
-                break;
+            yield return null;
         }
 
         yield return null;
+    }
+
+    private bool IsGameOver()
+    {
+        return !player1.IsAlive || !player2.IsAlive;
     }
 }

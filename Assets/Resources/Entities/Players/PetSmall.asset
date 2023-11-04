@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f3744b7657f09428bc210a7dbb2867, type: 3}
+  m_Name: PetSmall
+  m_EditorClassIdentifier: 
+  HP: 15
+  Strength: 1
+  Speed: 3
+  Agility: 1
+  bodyColor: {r: 0.49019608, g: 0.36727208, b: 0.2392157, a: 1}
+  defaultWeapon: {fileID: 11400000, guid: d78ff38dd99386c47a4c88358b5a04de, type: 2}
+  weapons: []
+  pets: []

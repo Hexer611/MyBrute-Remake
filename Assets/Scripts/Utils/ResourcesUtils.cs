@@ -4,17 +4,6 @@ using UnityEngine;
 
 public static class ResourcesUtils
 {
-    public static Weapon _defaultWeapon;
-    public static Weapon DefaultWeapon
-    {
-        get
-        {
-            if (_defaultWeapon == null)
-                _defaultWeapon = Resources.Load<Weapon>("Entities/Weapons/Fist");
-
-            return _defaultWeapon;
-        }
-    }
     public static ParticleSystem _playerHitParticles;
     public static ParticleSystem PlayerHitParticles
     {

@@ -12,5 +12,7 @@ public class Player : ScriptableObject
 
     public Color bodyColor;
 
+    public Weapon defaultWeapon;
     public Weapon[] weapons;
+    public Pet[] pets;
 }
