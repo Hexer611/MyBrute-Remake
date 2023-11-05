@@ -30,7 +30,7 @@ Stat curves;
 
 Here are some screen shots from current state of this implementation.
 
-<video width="630" height="300" src="https://github.com/Hexer611/MyBrute-Remake/assets/32894909/2f5c779c-7283-4f46-8100-01af1a15013d"></video>
+<video width="300" height="200" src="https://github.com/Hexer611/MyBrute-Remake/assets/32894909/2f5c779c-7283-4f46-8100-01af1a15013d"></video>
 
 ![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/f531a59c-131d-4a28-be3a-da7a742697f7)
 
