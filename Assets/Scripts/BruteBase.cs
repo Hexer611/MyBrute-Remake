@@ -23,11 +23,14 @@ public class BruteBase : MonoBehaviour
     bool canSelectNewAction;
 
     public bool IsAlive => currentHP > 0;
-    public float Power => playerEntity.Strength * currentWeapon.Damage;
+    public float Power => (playerEntity.Strength / 10) * currentWeapon.Damage; // Interesting math and stuff :D
     public float CritChance => currentWeapon.CritChance;
     public float CritDamage => currentWeapon.CritDamage;
     public float MultiHitChance => currentWeapon.MultiHitChance;
     public float WeaponDropChance => currentWeapon.WeaponDropChance;
+    public float DodgeChange => Mathf.Log(playerEntity.Speed, 2) * 5;
+    public float RepeatActionChance => Mathf.Log(playerEntity.Speed, 2) * 10;
+
     public static List<BruteBase> leftBrutes = new List<BruteBase>();
     public static List<BruteBase> rightBrutes = new List<BruteBase>();
 
@@ -76,6 +79,9 @@ public class BruteBase : MonoBehaviour
         {
             var newAction = SelectAction();
             yield return newAction;
+
+            if (RepeatActionChance > Random.Range(0f, 100f))
+                canSelectNewAction = true;
         }
     }
 
@@ -134,6 +140,11 @@ public class BruteBase : MonoBehaviour
 
     public void ReceiveDamage(float damage)
     {
+        if (DodgeChange > Random.Range(0f, 1f))
+        {
+            // Dodge animation
+            return;
+        }
         currentHP -= damage;
         if (!IsAlive)
         {
