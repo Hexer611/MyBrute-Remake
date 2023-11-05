@@ -20,10 +20,16 @@ Planned Unity features to be used.\
 :zap: VFX graph\
 :zap: Shader graph\
 \
+
+Stat curves;
+- Green = Strength (Damage multiplier)
+- Blue = Agility (Dodge Chance)
+- Red = Speed (Action Repeat Chance)
+
+![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/4e48e988-a994-4a19-bc3c-b858dacb6a9a)
+
 Here are some screen shots from current state of this implementation.
+[webm11.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/c8257afb-146f-4066-9db6-888a73519ebe)
 
-[webm1.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/c3e6d7d5-4ceb-4510-bd6b-e44aa77062c2)
-
-![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/1ecdd797-ae18-4011-ad81-ac375b3c4999)
 ![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/f531a59c-131d-4a28-be3a-da7a742697f7)
 
