@@ -3,7 +3,7 @@ This repository contains a game implementation that I used to play in primary sc
 
 The features that are planned to be implemented.\
 :white_check_mark: Core fight mechanics\
-:white_square_button: Pets\
+:white_check_mark: Pets\
 :white_check_mark: Weapons\
 :white_square_button: Abilities\
 :white_square_button: Stats (Strength, Agility, Speed)\
@@ -25,4 +25,5 @@ Here are some screen shots from current state of this implementation.
 [webm1.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/c3e6d7d5-4ceb-4510-bd6b-e44aa77062c2)
 
 ![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/1ecdd797-ae18-4011-ad81-ac375b3c4999)
-![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/d8ad586c-07da-4257-a7cf-4c73a9832b09)
+![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/f531a59c-131d-4a28-be3a-da7a742697f7)
+
