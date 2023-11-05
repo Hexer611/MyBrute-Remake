@@ -29,7 +29,9 @@ Stat curves;
 ![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/4e48e988-a994-4a19-bc3c-b858dacb6a9a)
 
 Here are some screen shots from current state of this implementation.
-[webm11.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/c8257afb-146f-4066-9db6-888a73519ebe)
+
+[webmshort.webm](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/2f5c779c-7283-4f46-8100-01af1a15013d)
+
 
 ![image](https://github.com/Hexer611/MyBrute-Remake/assets/32894909/f531a59c-131d-4a28-be3a-da7a742697f7)
 
