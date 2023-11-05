@@ -5,7 +5,7 @@ The features that are planned to be implemented.\
 :white_check_mark: Core fight mechanics\
 :white_check_mark: Pets\
 :white_check_mark: Weapons\
-:white_square_button: Abilities\
+:white_check_mark: Abilities\
 :white_square_button: Stats (Strength, Agility, Speed)\
 :white_check_mark: Similar in game UI design\
 \
